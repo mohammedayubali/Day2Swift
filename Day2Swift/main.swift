@@ -28,4 +28,23 @@ print(str.hasPrefix("Hello"))
 print(p.hasPrefix("Hello"))
 print(str.lowercased())
 print(str.uppercased())
+//for c in str{
+   // print(c)
+//}
 
+//Display characters from string
+//Tytpe of Ranges
+//closed Range
+//Partial Range From
+//From Partial Rnage Upto
+var x = 5...10
+var y = ...50
+for i in x
+{
+    print(i)
+}
+print(x)
+if (y.contains(-100))
+{
+   print("True")
+}
